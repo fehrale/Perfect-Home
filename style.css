@@ -403,20 +403,9 @@ h2 {
     margin-bottom: 0;
 }
 
-/* .benefits-list .benefits-symbol {
-    width: 120px;   
-    background-color: #FBFCED;
-} */
-
 .benefits-list .benefits-symbol {
-    /* width: 60px; */
-    /* Размер самой иконки */
-    /* height: 60px; */
     padding: 25px;
-    /* Создаем пространство для фона */
     background-color: #FBFCED;
     border-radius: 15%;
-    /* Для круглой подложки */
     box-sizing: border-box;
-    /* Важно! padding не включается в width/height */
 }
