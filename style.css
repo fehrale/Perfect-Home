@@ -354,11 +354,89 @@ h2 {
 
 .layer3 {
     position: absolute;
-    top: 1100px;
+    top: 1000px;
     left: 40px;
-    border: 1px solid red;
+    border-radius: 6%;
     background-color: #FFFFFF;
+    width: 391px;
+    height: 191px;
+    box-shadow: 0 0 6px 5px #0000001C;
 }
+
+.layer3 .value {
+    margin-top: 34px;
+    margin-left: 39px;
+    font-size: 20px;
+}
+
+.layer3 .text {
+    margin-top: 4px;
+    margin-left: 39px;
+    font-size: 14px;
+}
+
+.first-imgs,
+.second-imgs {
+    transform: translateX(-25%);
+}
+
+.benefits .imgs .imgs-slider {
+    width: 58px;
+    height: 54px;
+    border-radius: 10%;
+    margin-top: 18px;
+    margin-right: 14px;
+}
+
+.first-imgs .imgs-slider:last-child,
+.second-imgs .imgs-slider:last-child {
+    margin-right: 0px;
+}
+
+.first-imgs .imgs-slider:first-child,
+.second-imgs .imgs-slider:first-child {
+    margin-left: 34px;
+}
+
+.benefits .imgs .second-imgs {
+    display: none;
+}
+
+.mini-slider {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.mini-slider .first-imgs,
+.mini-slider .second-imgs {
+    display: inline-block;
+}
+
+#arrow {
+    width: 58px;
+    height: 54px;
+    appearance: none;
+    background-color: #F93633;
+    border-radius: 10%;
+    cursor: pointer;
+    transform: translateX(450%);
+}
+
+#arrow::before {
+    position: absolute;
+    content: url(img/arrow.png);
+    color: #FFFFFF;
+    margin: 14px 21px;
+}
+
+#arrow:checked~.first-imgs {
+    display: none;
+}
+
+#arrow:checked~.second-imgs {
+    display: inline-block;
+}
+
 
 .benefits-info {
     position: relative;
