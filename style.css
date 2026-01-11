@@ -92,7 +92,6 @@ header {
 
 .header-center .text {
     font-size: 18px;
-    /* text-align: center; */
     margin-top: 25px;
     opacity: 60%;
 }
@@ -208,6 +207,11 @@ h2 {
     font-size: var(--h-size);
     margin-left: 125px;
     margin-top: 150px;
+}
+
+.see-properties .properties-top h2 {
+    width: 600px;
+    height: 91px;
 }
 
 .see-properties .text {
@@ -335,7 +339,7 @@ h2 {
 }
 
 .benefits {
-    background-color: var(--main-background-color);
+    background-color: #FAFAFA;
 }
 
 .layer1 {
@@ -378,6 +382,10 @@ h2 {
 .first-imgs,
 .second-imgs {
     transform: translateX(-25%);
+}
+
+.benefits {
+    background-color: #FAFAFA;
 }
 
 .benefits .imgs .imgs-slider {
@@ -486,4 +494,292 @@ h2 {
     background-color: #FBFCED;
     border-radius: 15%;
     box-sizing: border-box;
+}
+
+.case-san-diego {
+    background-color: #FAFAFA;
+}
+
+.case-san-diego .container {
+    position: relative;
+}
+
+.case-san-diego .case-description {
+    border: 1px solid red;
+    margin-left: 150px;
+    margin-top: 400px;
+    width: 800px;
+    height: 600px;
+}
+
+.case-san-diego .case-description h2 {
+    width: 694px;
+    height: 180px;
+    margin: 0;
+}
+
+.case-san-diego .case-description .text {
+    margin-top: 41px;
+    line-height: 40px;
+    font-size: 20px;
+    width: 567px;
+    margin-left: 0;
+}
+
+.case-san-diego .case-description .case-numbers {
+    border: 1px solid black;
+    margin-top: 47px;
+}
+
+.case-san-diego .case-description .case-numbers .value {
+    display: inline-block;
+    font-size: 42px;
+    margin-right: 140px;
+}
+
+.case-san-diego .case-description .case-numbers .value:last-child {
+    margin-right: 0;
+}
+
+.case-san-diego .case-description .caps-text {
+    border: 1px solid red;
+}
+
+.case-san-diego .case-description .caps-text .text {
+    margin-top: 0;
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.case-san-diego .case-description .caps-text .text:last-child {
+    margin-right: 0;
+}
+
+/* .case-numbers .value:nth-child(2)::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 47px;
+    background-color: #ccc;
+    margin-left: 92px;
+    margin-right: 45px;
+    vertical-align: text-bottom;
+} */
+
+.case-san-diego .case-imgs .imgs-line {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.case-san-diego .case-imgs .lightblue-circle {
+    position: absolute;
+    right: 0;
+    top: 160px;
+}
+
+.case-san-diego .case-imgs .case-post {
+    position: absolute;
+    width: 584px;
+    height: 721px;
+    right: 250px;
+    top: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 6px 5px #0000001C;
+    border-radius: 5%;
+}
+
+.case-san-diego .case-imgs .holly-post {
+    margin-top: 103px;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.case-san-diego .case-imgs .holly-post .holly {
+    width: 501px;
+    height: 319px;
+}
+
+.case-san-diego .case-imgs .case-post .bookmark {
+    position: absolute;
+    top: 397px;
+    right: 67px;
+    padding: 14px 17px;
+    background-color: #FFFFFF;
+    border-radius: 8%;
+    box-shadow: 0 0 6px 5px #0000001C;
+}
+
+.case-san-diego .case-imgs .case-post .settings {
+    position: absolute;
+    top: 41px;
+    right: 42px;
+}
+
+.case-san-diego .case-imgs .case-post .talent-people img {
+    width: 52px;
+    height: 52px;
+    padding: 1px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.case-san-diego .case-imgs .case-post .talent-people .avatar1 {
+    left: 41px;
+    top: 461px;
+}
+
+.case-san-diego .case-imgs .case-post .talent-people .avatar2 {
+    left: 67px;
+    top: 461px;
+}
+
+.case-san-diego .case-imgs .case-post .talent-people .avatar3 {
+    left: 97px;
+    top: 461px;
+}
+
+.case-san-diego .case-imgs .case-post .talent-people .avatar4 {
+    left: 123px;
+    top: 461px;
+}
+
+.case-san-diego .case-imgs .case-post .talent-people .value {
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid red;
+    margin: 55px 224px 0 205px;
+}
+
+.case-san-diego .case-imgs .case-post .text {
+    font-size: 12px;
+    border: 1px solid red;
+    margin-top: 50px;
+    width: 501px;
+    line-height: 182%;
+}
+
+.case-san-diego .case-imgs .case-post .post-symbol {
+    display: inline-block;
+    border: 1px solid red;
+    margin-left: 261px;
+    margin-top: 20px;
+}
+
+.case-san-diego .case-imgs .case-post .post-symbol .value {
+    display: inline-block;
+    font-size: 14px;
+    opacity: 60%;
+    font-weight: normal;
+    transform: translateY(-65%);
+}
+
+.case-san-diego .case-imgs .case-post .post-symbol .post-symbol1,
+.case-san-diego .case-imgs .case-post .post-symbol .post-symbol2 {
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.case-san-diego .case-imgs .case-post .post-symbol .post-symbol1 img {
+    width: 39px;
+    height: 41px;
+}
+
+.case-san-diego .case-imgs .case-post .post-symbol .post-symbol1 {
+    margin-right: 150px;
+}
+
+.case-san-diego .case-imgs .google {
+    padding: 36px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    position: absolute;
+    top: 380px;
+    right: 145px;
+}
+
+
+.case-san-diego .case-imgs .top-post {
+    background-color: #FFFFFF;
+    border-radius: 7%;
+    position: absolute;
+    width: 308px;
+    height: 308px;
+    top: 880px;
+    right: 690px;
+}
+
+.case-san-diego .case-imgs .top-post .home-without-phone {
+    width: 68px;
+    height: 68px;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: #FBEDDA;
+    margin-top: 33px;
+    margin-left: 120px;
+}
+
+.case-san-diego .case-imgs .top-post .value {
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 85px;
+    border: 1px solid red;
+    width: 150px;
+}
+
+.case-san-diego .case-imgs .top-post .text {
+    font-size: 10px;
+    margin-top: 6px;
+    border: 1px solid red;
+    width: 60px;
+}
+
+.case-san-diego .case-imgs .top-post .real {
+    border: 1px solid red;
+    margin-right: 113px;
+}
+
+.case-san-diego .case-imgs .top-post .posts {
+    margin: 26px 113px 0 27px;
+    display: inline-block;
+}
+
+.case-san-diego .case-imgs .top-post .follow {
+    margin: 0;
+    display: inline-block;
+    width: 90px;
+}
+
+.case-san-diego .case-imgs .top-post .btn {
+    width: 115px;
+    height: 42px;
+    font-size: 10px;
+    padding: 0;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E2E3;
+    color: #677071;
+}
+
+.case-san-diego .case-imgs .top-post .btn:hover {
+    background-color: #772D8B;
+    color: #FFFFFF;
+    border: none;
+}
+
+.case-san-diego .case-imgs .top-post .following {
+    margin: 26px 22px 33px 40px;
+}
+
+.case-san-diego .case-imgs .top-post .messages {
+    margin: 0;
+    padding-left: 8px;
+}
+
+.case-san-diego .case-imgs .top-post .sms {
+    position: absolute;
+    bottom: 50px;
+    right: 110px;
 }
