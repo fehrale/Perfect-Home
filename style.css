@@ -3,7 +3,7 @@
     --logo-size: 30px;
     --main-color: color: #021112;
     --main-font-size: 18px;
-    --h-size: 60px;
+    --h-size: 58px;
     --main-background-color: background-color: #FAFAFA;
 }
 
@@ -878,4 +878,72 @@ h2 {
     left: 0;
     width: 811px;
     height: 1235px;
+}
+
+.next-home .container {
+    position: relative;
+    height: 992px;
+}
+
+.next-home .bookmarks {
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+
+.next-home .next-home-info {
+    border: 1px solid red;
+    width: 710px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 350px;
+}
+
+.next-home .next-home-info h2 {
+    margin: 0;
+}
+
+.next-home .next-home-info .text {
+    font-size: 20px;
+    margin-top: 41px;
+    margin-left: 0;
+    line-height: 38px;
+    width: 567px;
+    border: 1px solid red;
+}
+
+.next-home #email {
+    width: 716px;
+    padding: 38px 45px;
+    border: 1px solid #C8F3F9;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "Noto Serif", serif;
+    color: #677071;
+    background-color: #FFFFFF;
+    transform: translate(150%, -220%);
+    position: relative;
+    z-index: 1;
+}
+
+.next-home .btn {
+    width: 190px;
+    height: 72px;
+    border-radius: 15px;
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    z-index: 1;
+}
+
+.next-home .points {
+    position: absolute;
+    top: 560px;
+    right: 90px;
+}
+
+.next-home .polcircle {
+    position: absolute;
+    top: 700px;
+    right: 0;
 }
