@@ -62,12 +62,21 @@ header {
     font-size: var(--main-font-size);
 }
 
+.header-btn {
+    padding: 11px 25px;
+    background-color: #13A6BA;
+    border-radius: 5px;
+}
+
 .btn {
     color: #FFFFFF;
     border-radius: 10px;
     background-color: #13A6BA;
-    padding: 10px 30px;
     font-family: "Noto Serif", serif;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    transform: translate(-20px, -8px);
 }
 
 .header-top .btn {
@@ -91,19 +100,30 @@ header {
 }
 
 .header-center .text {
+    border: 1px solid red;
     font-size: 18px;
     margin-top: 25px;
+    margin-left: 50px;
     opacity: 60%;
+    width: 720px;
 }
 
 .filter-info {
     background-color: #FFFFFF;
-    width: 1100px;
+    width: 1200px;
     height: 180px;
     margin: 50px auto;
     padding-top: 18px;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     border-radius: 20px;
+}
+
+.filter-info .btn {
+    padding: 27px 57px;
+    border-radius: 15px;
+    font-size: 28px;
+    /* margin-bottom: 51px;
+    margin-right: 40px; */
 }
 
 .info {
@@ -176,14 +196,6 @@ header {
     font-weight: bold;
 }
 
-input[type=button] {
-    padding: 20px 31px;
-    cursor: pointer;
-    border: none;
-    transform: translate(-20px, -8px);
-    font-size: 20px;
-}
-
 .header-bottom img {
     width: 1800px;
     /* height: 700px; */
@@ -200,7 +212,6 @@ input[type=button] {
 .see-properties .container {
     position: relative;
 }
-
 
 h2 {
     border: 1px solid red;
@@ -255,6 +266,14 @@ h2 {
     transition: 0.1s;
 }
 
+.cards1:hover .btn,
+.cards2:hover .btn,
+.cards3:hover .btn {
+    background-color: #13A6BA;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
 .cards1:first-child {
     margin-left: 0;
 }
@@ -288,7 +307,10 @@ h2 {
     width: 453px;
     height: 82px;
     font-size: 28px;
-    border-radius: 10px;
+    border-radius: 20px;
+    color: #13A6BA;
+    background-color: #FFFFFF;
+    border: 1px solid #13A6BA;
 }
 
 .see-properties .radio-btn {
@@ -587,7 +609,7 @@ h2 {
     right: 250px;
     top: 300px;
     background-color: #FFFFFF;
-    box-shadow: 0 0 6px 5px #0000001C;
+    box-shadow: 0 0 10px 3px #E0E2E3;
     border-radius: 5%;
 }
 
@@ -709,6 +731,7 @@ h2 {
     height: 308px;
     top: 880px;
     right: 690px;
+    box-shadow: 0 0 10px 3px #E0E2E3;
 }
 
 .case-san-diego .case-imgs .top-post .home-without-phone {
@@ -775,11 +798,84 @@ h2 {
 
 .case-san-diego .case-imgs .top-post .messages {
     margin: 0;
-    padding-left: 8px;
 }
 
-.case-san-diego .case-imgs .top-post .sms {
+/* .case-san-diego .case-imgs .top-post .sms {
     position: absolute;
-    bottom: 50px;
+    bottom: 45px;
     right: 110px;
+} */
+
+.customer {
+    background-color: #FDF6ED;
+}
+
+.customer .container {
+    position: relative;
+    height: 992px;
+}
+
+.customer .sphere {
+    position: absolute;
+    top: 218px;
+    left: 710px;
+}
+
+.customer .glare-1 {
+    width: 80px;
+    height: 87px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    filter: blur(20px);
+    position: absolute;
+    top: 240px;
+    left: 743px;
+}
+
+.customer .marks {
+    position: absolute;
+    top: 89px;
+    right: 59px;
+}
+
+.customer .customer-info {
+    /* border: 1px solid red; */
+    width: 695px;
+    margin-right: 300px;
+    margin-top: 189px;
+}
+
+.customer .customer-info .phrase {
+    font-size: 18px;
+    color: #13A6BA;
+    letter-spacing: 10px;
+}
+
+.customer .customer-info h2 {
+    margin: 0;
+    margin-top: 42px;
+}
+
+.customer .customer-info .customer-text {
+    font-size: 24px;
+    color: #021112;
+    line-height: 42px;
+    margin-top: 50px;
+}
+
+.customer .customer-info .value {
+    font-size: 24px;
+    margin-top: 59px;
+}
+
+.customer .customer-info .text {
+    margin-top: 2px;
+}
+
+.customer .customer-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 811px;
+    height: 1235px;
 }
