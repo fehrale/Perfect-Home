@@ -34,7 +34,7 @@ header {
     width: 1700px;
 }
 
-.header-top .logo {
+.logo {
     font-weight: var(--logo-weight);
     font-size: var(--logo-size);
     display: inline-block;
@@ -882,7 +882,7 @@ h2 {
 
 .next-home .container {
     position: relative;
-    height: 992px;
+    height: 910px;
 }
 
 .next-home .bookmarks {
@@ -946,4 +946,122 @@ h2 {
     position: absolute;
     top: 700px;
     right: 0;
+}
+
+footer .container {
+    height: 420px;
+}
+
+footer .logo-block {
+    border: 1px solid red;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 111px;
+    width: 338px;
+}
+
+footer .logo-block .logo {
+    font-size: 50px;
+}
+
+footer .logo-block .text {
+    font-size: 20px;
+    margin-top: 38px;
+    line-height: 29px;
+}
+
+footer nav {
+    display: inline-block;
+    margin-left: 154px;
+    vertical-align: top;
+    margin-top: 130px;
+}
+
+footer nav ul {
+    border: 1px solid green;
+    display: inline-block;
+    list-style: none;
+    margin-left: 155px;
+}
+
+footer nav ul:first-child {
+    margin-left: 0;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #021112;
+}
+
+footer nav ul li:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+footer nav ul li {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+footer nav ul li:nth-child(2) {
+    margin-top: 0;
+}
+
+.right-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 350px;
+}
+
+footer .piar {
+    border: 1px solid pink;
+    width: 100%;
+}
+
+footer .footer-icons {
+    border: 1px solid orange;
+    width: 100%;
+    margin-top: 41px;
+    display: block;
+}
+
+footer .piar .piar-h {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer .piar .text {
+    font-size: 20px;
+    opacity: 100%;
+    margin-top: 50px;
+    line-height: 29px;
+}
+
+footer .footer-icons img {
+    padding: 10px 12px;
+    border: 1px solid #C8F3F9;
+    margin-right: 39px;
+    filter:
+        brightness(0) saturate(100%) invert(81%) sepia(10%) saturate(1000%) hue-rotate(160deg) brightness(105%) contrast(95%);
+    transition: 0.3s;
+
+}
+
+footer .footer-icons img:hover {
+    border: 1px solid #13A6BA;
+    filter:
+        brightness(0) saturate(100%) invert(45%) sepia(50%) saturate(1000%) hue-rotate(150deg) brightness(90%) contrast(95%);
+}
+
+footer .footer-icons img:nth-child(3) {
+    padding: 15px 15px;
+}
+
+footer .footer-icons img:nth-child(4) {
+    padding: 15px 15px;
+    margin-right: 0;
 }
