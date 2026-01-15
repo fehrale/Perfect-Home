@@ -882,12 +882,12 @@ h2 {
 
 .next-home .container {
     position: relative;
-    height: 910px;
+    height: 821px;
 }
 
 .next-home .bookmarks {
     position: absolute;
-    top: 280px;
+    top: 243px;
     left: 0;
 }
 
@@ -896,7 +896,7 @@ h2 {
     width: 710px;
     height: 350px;
     margin-left: 150px;
-    margin-top: 350px;
+    margin-top: 290px;
 }
 
 .next-home .next-home-info h2 {
@@ -921,7 +921,7 @@ h2 {
     font-family: "Noto Serif", serif;
     color: #677071;
     background-color: #FFFFFF;
-    transform: translate(150%, -220%);
+    transform: translate(150%, -230%);
     position: relative;
     z-index: 1;
 }
@@ -931,20 +931,20 @@ h2 {
     height: 72px;
     border-radius: 15px;
     position: absolute;
-    top: 500px;
+    top: 427px;
     right: 200px;
     z-index: 1;
 }
 
 .next-home .points {
     position: absolute;
-    top: 560px;
+    top: 496px;
     right: 90px;
 }
 
 .next-home .polcircle {
     position: absolute;
-    top: 700px;
+    top: 655px;
     right: 0;
 }
 
@@ -1013,20 +1013,13 @@ footer nav ul li:nth-child(2) {
     display: inline-block;
     vertical-align: top;
     margin-top: 130px;
-    margin-left: 150px;
-    width: 350px;
+    margin-left: 160px;
+    width: 380px;
 }
 
 footer .piar {
     border: 1px solid pink;
     width: 100%;
-}
-
-footer .footer-icons {
-    border: 1px solid orange;
-    width: 100%;
-    margin-top: 41px;
-    display: block;
 }
 
 footer .piar .piar-h {
@@ -1039,6 +1032,13 @@ footer .piar .text {
     opacity: 100%;
     margin-top: 50px;
     line-height: 29px;
+}
+
+footer .footer-icons {
+    border: 1px solid orange;
+    width: 100%;
+    margin-top: 41px;
+    display: block;
 }
 
 footer .footer-icons img {
@@ -1058,10 +1058,12 @@ footer .footer-icons img:hover {
 }
 
 footer .footer-icons img:nth-child(3) {
-    padding: 15px 15px;
+    width: 54px;
+    height: 51px;
 }
 
 footer .footer-icons img:nth-child(4) {
-    padding: 15px 15px;
     margin-right: 0;
+    width: 54px;
+    height: 51px;
 }
