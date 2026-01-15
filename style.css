@@ -16,7 +16,6 @@ body {
 
 header {
     background-color: #FBEDDA;
-    position: relative;
 }
 
 .container {
@@ -28,10 +27,17 @@ header {
     color: var(--main-color);
 }
 
+header .container {
+    height: 2166px;
+    width: 2345px;
+    position: relative;
+}
+
 .header-top {
-    border: 1px solid green;
-    margin: 45px auto 0 auto;
-    width: 1700px;
+    margin-top: 50px;
+    width: 1850px;
+    height: 50px;
+    margin-left: 150px;
 }
 
 .logo {
@@ -44,11 +50,12 @@ header {
 .header-top .menu {
     display: inline-block;
     list-style: none;
+    font-size: 18px;
 }
 
 .header-top .menu li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 .header-top .menu li:last-child {
@@ -84,36 +91,33 @@ header {
 }
 
 .header-center {
-    border: 1px solid red;
-    width: 800px;
-    margin: 100px auto 0 auto;
+    width: 988px;
+    margin-top: 224px;
 }
 
 .header-center h1 {
-    font-size: var(--h-size);
+    font-size: 80px;
     text-align: center;
 }
 
 .text {
-    font-size: 18px;
+    font-size: 20px;
     opacity: 60%;
 }
 
 .header-center .text {
-    border: 1px solid red;
-    font-size: 18px;
-    margin-top: 25px;
-    margin-left: 50px;
+    margin-top: 31px;
+    margin-left: 140px;
     opacity: 60%;
-    width: 720px;
+    width: 750px;
 }
 
 .filter-info {
     background-color: #FFFFFF;
-    width: 1200px;
-    height: 180px;
-    margin: 50px auto;
-    padding-top: 18px;
+    width: 1274px;
+    height: 272px;
+    margin-top: 132px;
+    padding-top: 44px;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     border-radius: 20px;
 }
@@ -122,12 +126,10 @@ header {
     padding: 27px 57px;
     border-radius: 15px;
     font-size: 28px;
-    /* margin-bottom: 51px;
-    margin-right: 40px; */
 }
 
 .info {
-    margin-top: 20px;
+    margin-top: 63px;
 }
 
 .tab-panel {
@@ -139,8 +141,8 @@ header {
 }
 
 .tabs+label {
-    font-size: 20px;
-    margin-right: 80px;
+    font-size: 26px;
+    margin-right: 87px;
     color: rgba(34, 60, 80, 0.2);
     padding: 10px 50px;
     cursor: pointer;
@@ -186,8 +188,19 @@ header {
 .tab-panel .property,
 .tab-panel .price {
     display: inline-block;
-    width: 320px;
+    width: 230px;
     height: 100px;
+    /* text-align: center; */
+    margin-right: 100px;
+}
+
+.tab-panel .location {
+    margin-left: 36px;
+}
+
+.tab-panel .location .value,
+.tab-panel .property .value,
+.tab-panel .price .value {
     text-align: center;
 }
 
@@ -197,12 +210,10 @@ header {
 }
 
 .header-bottom img {
-    width: 1800px;
-    /* height: 700px; */
+    width: 2345px;
+    height: 1318px;
     position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, 3%);
 }
 
 .see-properties {
@@ -214,7 +225,6 @@ header {
 }
 
 h2 {
-    border: 1px solid red;
     font-size: var(--h-size);
     margin-left: 125px;
     margin-top: 150px;
@@ -226,7 +236,6 @@ h2 {
 }
 
 .see-properties .text {
-    border: 1px solid red;
     margin-top: 20px;
     margin-left: 125px;
     display: inline-block;
@@ -287,13 +296,11 @@ h2 {
 
 .properties-content .value {
     margin: 29px 29px 0 29px;
-    border: 1ps solid red;
     font-size: 30px;
 }
 
 .properties-content .text {
     margin: 9px 0 0 29px;
-    border: 1ps solid red;
 }
 
 .properties-content .text+.value {
@@ -480,7 +487,6 @@ h2 {
 }
 
 .benefits-list .block {
-    border: 1px solid red;
     display: inline-block;
     transform: translateY(-22%);
     margin-left: 32px;
@@ -496,7 +502,6 @@ h2 {
 }
 
 .benefits-info .benefits-list {
-    border: 1px solid red;
     position: absolute;
     top: 650px;
     right: 358px;
@@ -527,7 +532,6 @@ h2 {
 }
 
 .case-san-diego .case-description {
-    border: 1px solid red;
     margin-left: 150px;
     margin-top: 400px;
     width: 800px;
@@ -549,7 +553,6 @@ h2 {
 }
 
 .case-san-diego .case-description .case-numbers {
-    border: 1px solid black;
     margin-top: 47px;
 }
 
@@ -561,10 +564,6 @@ h2 {
 
 .case-san-diego .case-description .case-numbers .value:last-child {
     margin-right: 0;
-}
-
-.case-san-diego .case-description .caps-text {
-    border: 1px solid red;
 }
 
 .case-san-diego .case-description .caps-text .text {
@@ -671,13 +670,11 @@ h2 {
 .case-san-diego .case-imgs .case-post .talent-people .value {
     font-size: 14px;
     display: inline-block;
-    border: 1px solid red;
     margin: 55px 224px 0 205px;
 }
 
 .case-san-diego .case-imgs .case-post .text {
     font-size: 12px;
-    border: 1px solid red;
     margin-top: 50px;
     width: 501px;
     line-height: 182%;
@@ -685,7 +682,6 @@ h2 {
 
 .case-san-diego .case-imgs .case-post .post-symbol {
     display: inline-block;
-    border: 1px solid red;
     margin-left: 261px;
     margin-top: 20px;
 }
@@ -701,7 +697,6 @@ h2 {
 .case-san-diego .case-imgs .case-post .post-symbol .post-symbol1,
 .case-san-diego .case-imgs .case-post .post-symbol .post-symbol2 {
     display: inline-block;
-    border: 1px solid red;
 }
 
 .case-san-diego .case-imgs .case-post .post-symbol .post-symbol1 img {
@@ -748,19 +743,16 @@ h2 {
     font-size: 20px;
     margin-top: 14px;
     margin-left: 85px;
-    border: 1px solid red;
     width: 150px;
 }
 
 .case-san-diego .case-imgs .top-post .text {
     font-size: 10px;
     margin-top: 6px;
-    border: 1px solid red;
     width: 60px;
 }
 
 .case-san-diego .case-imgs .top-post .real {
-    border: 1px solid red;
     margin-right: 113px;
 }
 
@@ -839,7 +831,6 @@ h2 {
 }
 
 .customer .customer-info {
-    /* border: 1px solid red; */
     width: 695px;
     margin-right: 300px;
     margin-top: 189px;
@@ -892,7 +883,6 @@ h2 {
 }
 
 .next-home .next-home-info {
-    border: 1px solid red;
     width: 710px;
     height: 350px;
     margin-left: 150px;
@@ -909,7 +899,6 @@ h2 {
     margin-left: 0;
     line-height: 38px;
     width: 567px;
-    border: 1px solid red;
 }
 
 .next-home #email {
@@ -953,7 +942,6 @@ footer .container {
 }
 
 footer .logo-block {
-    border: 1px solid red;
     display: inline-block;
     margin-left: 150px;
     margin-top: 111px;
@@ -978,7 +966,6 @@ footer nav {
 }
 
 footer nav ul {
-    border: 1px solid green;
     display: inline-block;
     list-style: none;
     margin-left: 155px;
@@ -1018,7 +1005,6 @@ footer nav ul li:nth-child(2) {
 }
 
 footer .piar {
-    border: 1px solid pink;
     width: 100%;
 }
 
@@ -1035,7 +1021,6 @@ footer .piar .text {
 }
 
 footer .footer-icons {
-    border: 1px solid orange;
     width: 100%;
     margin-top: 41px;
     display: block;
@@ -1048,6 +1033,7 @@ footer .footer-icons img {
     filter:
         brightness(0) saturate(100%) invert(81%) sepia(10%) saturate(1000%) hue-rotate(160deg) brightness(105%) contrast(95%);
     transition: 0.3s;
+    cursor: pointer;
 
 }
 
